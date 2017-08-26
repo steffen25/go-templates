@@ -13,6 +13,7 @@ import (
 var templates map[string]*template.Template
 const BASE_TEMPLATE_PATH = "/views/base.html"
 
+// Inspiration taken from https://elithrar.github.io/article/approximating-html-template-inheritance/
 func init() {
 	if templates == nil {
 		templates = make(map[string]*template.Template)
