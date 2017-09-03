@@ -1,4 +1,4 @@
-# go-templates-test
+# go-templates
 
 This project is used to expirement with the html/template package in Go.
 
